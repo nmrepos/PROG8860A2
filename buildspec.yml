@@ -8,4 +8,4 @@ phases:
     commands:
       - npm run build
       - cdk synth
-      - cdk deploy --require-approval never
+      - cdk deploy --require-approval never --region us-east-1
