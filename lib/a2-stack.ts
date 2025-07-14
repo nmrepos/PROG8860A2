@@ -18,7 +18,7 @@ export class A2Stack extends cdk.Stack {
       handler: 'index.handler',
       code: lambda.Code.fromInline(`
         exports.handler = async function(event) {
-          console.log("Lambda invoked");
+          console.log("Lambda invoked — pipeline check!");
           return { statusCode: 200, body: "Hello, World!" };
         };
       `),
