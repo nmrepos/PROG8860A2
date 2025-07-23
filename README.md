@@ -1,4 +1,4 @@
-# PROG8860A2 – AWS CDK + CodePipeline Assignment
+# AWS CDK + CodePipeline Assignment
 
 A demonstration of using the AWS Cloud Development Kit (CDK) in TypeScript to provision AWS resources (all within the Free Tier) and wire up a GitHub-backed CodePipeline for continuous deployment.
 
